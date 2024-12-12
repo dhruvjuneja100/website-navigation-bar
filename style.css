@@ -1,0 +1,92 @@
+body{
+ background-color:#CFFDCC;
+ /* You can change the color of the background from here */
+ margin:0;
+}
+/* Navigation bar css */
+#navbar{
+    display:flex;
+    background-color: #EEF49E; /*You can change the background color from here*/
+    position: fixed;
+    width: 100%;
+    align-items: center;
+
+}
+.navbar{
+    display:flex;
+    flex:1;
+    gap: 35px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right :80px;
+    visibility: visible;
+}
+.logo{
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.logo.large{
+    font-size: xx-large;
+    padding-left: 30px;
+    color: black;
+    /* You can change the logo color from here above */
+}
+.navbar h3{
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    color: black;
+    /* You can change the menu text color from here above line only in case if width > 850 */
+}
+.material-symbols-outlined{
+    visibility: hidden;
+    
+
+}
+
+@media (max-width:850px){
+    .logo.large{
+        font-size: x-large;
+    } 
+    .navbar h3{
+        font-family: "Bokor", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0;
+        visibility: hidden;
+
+    }
+    .material-symbols-outlined{
+        visibility: visible;
+    } 
+}
+
+@media (max-width: 390px){
+    .logo.large{
+        position: relative;
+        left:25%;
+        right:25%;
+    }
+    .material-symbols-outlined{
+        visibility: hidden;
+        flex-wrap: nowrap;
+        
+    }
+}
+.nav-mini{
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    background-color: aliceblue;
+    /* You can change the menu color from here above */
+    width: 100%;
+    gap:20px;
+    justify-content: center;
+    color:black;
+    /* You can change the menu text color from here above in screen less than 850px */
+}
+
