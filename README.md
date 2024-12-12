@@ -1,5 +1,6 @@
 # website-navigation-bar
 =>The navigation bar is fully responsive.
+=>You can view website on this link "https://dhruvjuneja100.github.io/website-navigation-bar/"
 
 -width larger than 850px all the menu bar options are available. (generally for laptops and monitor screens)
 ![image](https://github.com/user-attachments/assets/312226f8-006a-429c-aee8-70253c499d36)
